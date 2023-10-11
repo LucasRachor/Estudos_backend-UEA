@@ -10,7 +10,9 @@ function veriricarIdade(idade) {
         console.log('adolescente')
     } else if (idade > 18 & idade <= 59) {
         console.log('adulto')
+    } else if (idade > 59) {
+        console.log('idoso')
     }
 }
 
-veriricarIdade('aaa')
+veriricarIdade(60)
